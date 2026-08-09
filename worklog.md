@@ -13,8 +13,8 @@
 |---|---|---|---|---|
 | 广东中山：2020年全市将有超303个足球场 | 2018-07-03 | chinanews.com | http://www.chinanews.com/sh/2018/07-03/8555102... | 1 |
 | "体操皇后"霍尔金娜：在"有限"里造出个"无限"来 | 2018-07-09 | people.com.cn | http://sports.people.com.cn/n1/2018/0709/c2215... | 1 |
-
 - 结论：media cloud不行？ + 新闻找不出什么东西
+
 
 -
 8.5 周三
@@ -24,14 +24,15 @@
 
 A。
 
-//////// 重新定位研究问题："公共话语如何建构（退役）运动员" --> 把媒体的极端化变成数据本身,不是干扰。
+//////// 重新定位研究问题："公共话语如何建构运动员" --> 把媒体的极端化变成数据本身,不是干扰。
 - 什么情况下运动员会被报道：
 - in what tone
 - frequency across years
+- 次要：可对比国外媒体VS中国媒体对中国运动员的呈现。！
+- 次次要：对比中国媒体如何呈现中国运动员 VS 海外运动员。
 
 //////// "报道要么正面要么负面"的直觉 ---> 通过数据证明！
 - 计算情感分布的双峰性(bimodality)。如果你能证明报道情感呈U型/双峰分布(两端多、中间少),这本身就是一个可发表的实证发现——你用数据证明了"极化呈现"的存在,而不是断言。可以用 bimodality coefficient 或 dip test 来检验。分析极化是否结构化:是不是金牌项目偏正面(励志)、冷门项目偏负面(困境)?是不是某类成绩层级更容易被极端叙事?一旦极化能被这些变量预测,你的论文就从"描述极化"升级到"解释极化的生成机制"。
-
 //// （有余力可考虑）小型微博数据库对特定热点话题进行大众讨论VS官方报道的比较
 
 
@@ -66,8 +67,6 @@ B.
 选e.g.全运会的50名不用届、不用项目、不同地区的运动员抽样，用媒体搜索他们的名字，获取退役后的处境。
 
 
-
-
 -
 8.6周四 + 8.7周五
 
@@ -77,48 +76,32 @@ B.
 - 结论：排除！通过媒体搜不出来个体运动员的退役处境。
 
 
-///// working on see 8.5周三 法A
-- 次要：可对比国外媒体VS中国媒体对中国运动员的呈现。！
-- 次次要：对比中国媒体如何呈现中国运动员 VS 海外运动员。
-- 确定数据库？
-    - WiseSearch ????
-    - CNKI China Core Newspapers ✅
+8.8 数据库work
 
-
-
-        ## 中文新闻数据库(英文名 + 美国大学可及性)
-
-        **WiseNews (Wisers / 慧科)**
+- 备选数据库。
+        ???? **WiseNews (Wisers / 慧科)**
         英文常写作 WiseNews 或 Wisers Information。北美不少研究型大学的东亚图书馆有订阅,是中文媒体框架分析的主力库,覆盖港澳台及海外华文报刊,时间跨度长、可批量导出。先查你们图书馆的数据库 A–Z 列表里有没有 "WiseNews" 或 "Wisers"。
 
-        **CNKI China Core Newspapers Full-text Database(中国重要报纸全文数据库)**
-        CNKI 的英文品牌就是 CNKI(China National Knowledge Infrastructure)。这个报纸子库英文名为 "China Core Newspapers Full-text Database" 或 "China Important Newspapers Database"。北美很多大学订了 CNKI,但注意:**订阅常常是分模块的**,你们学校可能有期刊库却没有报纸库,要具体确认。
+        ✅ **CNKI China Core Newspapers Full-text Database(中国重要报纸全文数据库)** https://search.library.dartmouth.edu/view/action/uresolver.do?operation=resolveService&package_service_id=20911662920005706&institutionId=5706&customerId=5705&VE=true
 
-        **VIP / CQVIP(维普)**
-        英文写作 CQVIP 或 VIP Database。北美订阅较少,可作为备选交叉验证。
+        ✅ **Factiva(Dow Jones)**
+        收录大量中英文新闻源,含中国及国际媒体. sourcing from Chinese medias.
 
-        ## 值得优先考虑的海外/国际数据库
+        ❌ **Nexis Uni / LexisNexis**
+        https://advance-lexis-com.dartmouth.idm.oclc.org/firsttime?crid=2c0b63c9-c232-4e82-9ea4-cd981a0c151c
+        Current and general news in both CHN and ENG. BUT does not source from chinese media. 
 
-        对在美国的你,下面这些可能比国内库**更容易获取,且非常适合框架分析**:
-
-        **Factiva(Dow Jones)**
-        Factiva 收录大量中英文新闻源,含中国及国际媒体,检索和导出功能强,是传播学内容分析的常用平台。美国商学院/图书馆普遍订阅。
-
-        **Nexis Uni / LexisNexis**
-        前身是 LexisNexis Academic,美国大学几乎标配。全球新闻覆盖广,含部分中文及大量英文报道,适合做跨语种或聚焦英文媒体如何呈现的分析。
-
-        **ProQuest 系列**
-        包括 ProQuest Central、Global Newsstream、以及专门的 **East Asian Newspapers / Chinese Newspapers Collection**。Global Newsstream 覆盖全球报纸且含中文源,导出规范,很适合系统抽样。
-
-        **Access World News (NewsBank)**
+        ❌ 中文数据质量不佳。**Access World News (NewsBank)**
         全球本地及国家级新闻,覆盖面广,美国图书馆常见。
 
-        ## 针对你框架分析研究的具体建议
-
-        **主力语料**:如果能拿到 WiseNews,它对中文媒体的覆盖最贴合你的选题。如果拿不到,**ProQuest Global Newsstream 或 Factiva** 是最现实的替代,两者都含中文源且导出规范,足以支撑系统的框架分析抽样。
-
+        //////
         **一个关键提醒(跨库可比性)**:框架分析要求你的语料在时间、媒体类型、检索逻辑上尽量一致。不同库对同一媒体的收录起止时间、去重逻辑差别很大,混用多个库会引入难以控制的异质性。建议**尽量以单一主力库构建核心语料**,其他库只用于补漏或验证,并在方法部分说明清楚检索式、时间范围和库的选择理由——这是框架分析类论文常被审稿人追问的地方。
 
         **关于社交媒体**:微博没有对应的西方学术数据库,若你要纳入微博做补充,通常得走 API 或第三方舆情工具,数据获取和伦理审查(IRB)都要另行规划。
 
-        **下一步实操**:先去你们大学图书馆网站的数据库 A–Z 列表,搜 "WiseNews"、"CNKI"、"Factiva"、"ProQuest Newsstream" 这几个词,确认实际能访问哪些。如果都查不到,可以直接联系图书馆的 **East Asian Studies librarian 或 subject librarian**——他们经常能帮你开通试用或走馆际互借,这条路很多学生会忽略。
+
+ASK::::
+- work to choose database. - how to justify my decision.
+
+
+
