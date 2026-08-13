@@ -76,32 +76,82 @@ B.
 - 结论：排除！通过媒体搜不出来个体运动员的退役处境。
 
 
-8.8 数据库work
+8.8 + 8.10 数据库work
 
-- 备选数据库。
-        ???? **WiseNews (Wisers / 慧科)**
-        英文常写作 WiseNews 或 Wisers Information。北美不少研究型大学的东亚图书馆有订阅,是中文媒体框架分析的主力库,覆盖港澳台及海外华文报刊,时间跨度长、可批量导出。先查你们图书馆的数据库 A–Z 列表里有没有 "WiseNews" 或 "Wisers"。
+❌ **WiseNews (Wisers / 慧科)**
+- no subscription by Dartmouth.
 
-        ✅ **CNKI China Core Newspapers Full-text Database(中国重要报纸全文数据库)** https://search.library.dartmouth.edu/view/action/uresolver.do?operation=resolveService&package_service_id=20911662920005706&institutionId=5706&customerId=5705&VE=true
+❌ **Nexis Uni / LexisNexis**
+- does not contain chinese-language source.
 
-        ✅ **Factiva(Dow Jones)**
-        收录大量中英文新闻源,含中国及国际媒体. sourcing from Chinese medias.
+❌ **NewsBank Access World News Research Collection**
+- //// (not robust explanation?) limited Chinese language sources compared to the other two.
 
-        ❌ **Nexis Uni / LexisNexis**
-        https://advance-lexis-com.dartmouth.idm.oclc.org/firsttime?crid=2c0b63c9-c232-4e82-9ea4-cd981a0c151c
-        Current and general news in both CHN and ENG. BUT does not source from chinese media. 
+✅ **CNKI China Core Newspapers Full-text Database(中国重要报纸全文数据库)**
+https://search.library.dartmouth.edu/view/action/uresolver.do?operation=resolveService&package_service_id=20911662920005706&institutionId=5706&customerId=5705&VE=true
+- "collected and continuously updated more than 726 kinds of important party newspapers, industry newspapers and comprehensive newspapers at all levels published since 2000."
 
-        ❌ 中文数据质量不佳。**Access World News (NewsBank)**
-        全球本地及国家级新闻,覆盖面广,美国图书馆常见。
-
-        //////
-        **一个关键提醒(跨库可比性)**:框架分析要求你的语料在时间、媒体类型、检索逻辑上尽量一致。不同库对同一媒体的收录起止时间、去重逻辑差别很大,混用多个库会引入难以控制的异质性。建议**尽量以单一主力库构建核心语料**,其他库只用于补漏或验证,并在方法部分说明清楚检索式、时间范围和库的选择理由——这是框架分析类论文常被审稿人追问的地方。
-
-        **关于社交媒体**:微博没有对应的西方学术数据库,若你要纳入微博做补充,通常得走 API 或第三方舆情工具,数据获取和伦理审查(IRB)都要另行规划。
+✅ **People's Daily 人民日报**
+- official voice of the CCP and gov. since June 1946.
+https://data.people.com.cn/rmrb/20220325/1?code=2
 
 
-ASK::::
-- work to choose database. - how to justify my decision.
+✅ **Factiva(Dow Jones)** https://app-dowjones-com.dartmouth.idm.oclc.org/factiva/home?redirect_from=gl
+- 425 major chinese media sources. 
+
+//////
+    **一个关键提醒(跨库可比性)**:框架分析要求你的语料在时间、媒体类型、检索逻辑上尽量一致。不同库对同一媒体的收录起止时间、去重逻辑差别很大,混用多个库会引入难以控制的异质性。建议**尽量以单一主力库构建核心语料**,其他库只用于补漏或验证,并在方法部分说明清楚检索式、时间范围和库的选择理由——这是框架分析类论文常被审稿人追问的地方。
+
+    **关于社交媒体**:微博没有对应的西方学术数据库,若你要纳入微博做补充,通常得走 API 或第三方舆情工具,数据获取和伦理审查(IRB)都要另行规划。
+- DONE. work to choose database. - how to justify my decision.
+    - check what sources the datbase has. -> e.g. China Daily. => what the database represents in terms of data.
+- check also text scrapability for the databases?
+- Systematic Review Method. for going through all possible literature. https://researchguides.dartmouth.edu/sys-reviews
+https://guides.mclibrary.duke.edu/sysreview/definition
+- construct keywords - search terms + search strings. -> and be consistent for every database.
 
 
 
+------
+        你能做到的是——用制度诊断框架,论证执行落差的结构性/制度性成因,并用文本重复度提供落差存在的间接证据。这是有真实分析深度的、独立研究者力所能及的、两周可完成的贡献。
+
+        你做不到的是——证明具体的因果链(比如"正是因为没有 X 部门,所以某年某地安置失败"),或给出全国实际安置率这类执行数据。这些要留给未来有访谈和内部数据的研究。你在局限部分诚实地标出这条边界,反而是成熟的表现。你没法证明落差"如何在每个个案中发生",但你完全可以有力地论证落差"为什么在制度上必然容易发生"。对一个想推动政策改善的研究者来说, 后者其实更有用——因为它直接指向该改哪些制度要件。
+
+pivot
+- 问题：政策执行上，为什么对运动员的保障措施推行不利。
+- 对比军人的待遇和安置政策，因为有特别多共同点。
+
+
+对比具体政策文件的用语：是否具体。是否强硬。是否真的想把事情办成。
+
+
+Proof：fixing problems
+    对历年政策文件做一个"重复度/新增度"的文本追踪。 —— 把 2010 年至今的运动员政策文件按时间排列,逐年编码每份文件提出的具体措施,标注哪些是新增的、哪些是重复前几年的。如果你能用数据显示:十几年间政策文本高度重复、实质性新增措施极少、且反复出现的都是同样几个未解决的维度(就业、教育、伤残保障)——这个"重复率"本身就是执行落差的间接量化证据:一个被有效执行的政策不需要年年重申。这一步用得上你的文本分析能力,也让"象征性政策"这个论点从断言变成有数据支撑的发现。
+
+
+8.11 周二
+
+vague idea: policy is there, but implementation is not. 
+
+Background Readings.
+
+Q: 举国体制、retirement policy 如何运作
+
+Q: how are retired athletes treated @now.
+- 大部分如果想继续学业需要高考吗///
+
+Q: GOV problem
+- Li Mengzi 
+    - poor communication between departments
+    - no longer fair b/c market-改革 & focus on performance. compared to planned economy.
+
+Q:
+
+arguing that education is important:
+- 【after the glory】- "human capital" theory. p/633 Schultz
+    - becker - educaton === more productivity b/c more ability
+
+
+
+
+/// implementation studies structure ??
